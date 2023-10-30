@@ -1,0 +1,47 @@
+
+
+.containerBlueprint {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+.Content {
+    position: relative;
+    margin-top: 8%;
+    display: inline-block;
+    border: 10px solid red;
+    width: 100%;
+
+}
+
+.textContainer {
+    display: block;
+    flex: wrap;
+    float: right;
+    position: absolute;
+    overflow-wrap: break-word;
+    max-width: 50%;
+    max-height: 5%;
+    left: 45%;
+}
+
+
+
+.containerBlueprint .cardImg {
+    position: static;
+    width: 35%;
+    height: 25%;
+    float: left;
+    padding: 3% 3%;
+    margin: 2px;
+}
+
+.contentStyle {
+    color: white;
+}
+
+.containerBlueprint .cardImg .textContainer {
+    position: relative;
+}
